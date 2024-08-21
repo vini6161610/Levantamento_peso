@@ -42,6 +42,6 @@
  .dp-menu ul ul li a{ 
  display: block;
  }
- *{
-    background-color: grey;
+ body{
+   background-color: gray;
  }
