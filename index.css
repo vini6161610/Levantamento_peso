@@ -21,6 +21,7 @@
      display: inline-block;
      padding: 10px;
      transition: background .4s;
+     
  }
  .dp-menu ul li a:hover{
      background-color: var(--hover);
@@ -30,6 +31,7 @@
      display: none;
      left: 0;
      position: absolute;
+     
  }
  .dp-menu ul li:hover ul{
      display: block;
@@ -44,4 +46,8 @@
  }
  body{
    background-color: gray;
+   
+ }
+ .dp-menu{
+align-items: center;
  }
