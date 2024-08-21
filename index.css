@@ -1,0 +1,47 @@
+:root{
+    --fundo: #000000 ;
+    --hover:#aaaaaa;
+    --principal: #ffffff;
+ }
+ *{
+     justify-content: center;
+ }
+ .dp-menu ul{
+     list-style-type: none;
+     padding: 0;
+     background-color: var(--fundo);
+ }
+ .dp-menu ul li{
+     display: inline;
+     position: relative;
+ }
+ .dp-menu ul li a{
+     color: var(--principal);
+     text-decoration: none;
+     display: inline-block;
+     padding: 10px;
+     transition: background .4s;
+ }
+ .dp-menu ul li a:hover{
+     background-color: var(--hover);
+    
+ }
+ .dp-menu ul ul{
+     display: none;
+     left: 0;
+     position: absolute;
+ }
+ .dp-menu ul li:hover ul{
+     display: block;
+     
+ }
+ .dp-menu ul ul {
+    width: 150px;
+     
+ }
+ .dp-menu ul ul li a{ 
+ display: block;
+ }
+ *{
+    background-color: grey;
+ }
