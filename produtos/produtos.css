@@ -71,6 +71,7 @@ body{
     margin: 50px;
     float: left;
     border-radius: 20px;
+    padding-right: 35px;
 }
 
 .quadrado{
@@ -176,7 +177,7 @@ body{
     .item{
         margin-bottom: 20px;
     }
-    .container{
+    .container2{
         height: auto;
     }
 }
