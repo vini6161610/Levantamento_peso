@@ -11,21 +11,29 @@
      list-style-type: none;
      padding: 0;
      background-color: var(--fundo);
+     border-radius: 50px;
+    
+     
  }
  .dp-menu ul li{
      display: inline;
      position: relative;
+  
+   
  }
  .dp-menu ul li a{
      color: var(--principal);
      text-decoration: none;
      display: inline-block;
-     padding: 10px;
-     transition: background .4s;
+     padding: 30px;
+     
+    
      
  }
  .dp-menu ul li a:hover{
      background-color: var(--hover);
+     border-radius: 50px;
+     transition: .6s;
     
  }
  .dp-menu ul ul{
@@ -52,4 +60,18 @@
  .dp-menu{
     align-items: center;
     text-align: center;
+  
+    
  }
+ footer{
+
+    background-color: #aaaaaa;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    text-align: center;
+    
+    
+     }
