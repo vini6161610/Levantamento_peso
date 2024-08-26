@@ -61,22 +61,35 @@ body{
  
  }
 
-/* .item2{
+.item2{
     transition: .35s;
     cursor: pointer;
     background-color: white;
     width: 200px;
     height: 200px;
+    padding-left: 35px;
     margin: 50px;
     float: left;
     border-radius: 20px;
 }
 
+.quadrado{
+  
+    width: 200px;
+    height: 200px;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .container2:hover > :not(:hover){
     opacity: .4;
     transform: scale(0.9);
-} */
+    
+}
 
 .container{
     display: flex;
