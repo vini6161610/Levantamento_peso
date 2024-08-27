@@ -5,13 +5,15 @@
  }
  *{
      justify-content: center;
+     margin: 0;
+     padding: 0;
  }
 
  .dp-menu ul{
      list-style-type: none;
      padding: 0;
      background-color: var(--fundo);
-     border-radius: 50px;
+   
  }
  .dp-menu ul li{
      display: inline;
@@ -51,7 +53,7 @@
  
  }
  body{
-   background-color: gray;
+   background-color: rgb(116, 0, 0);
    
  }
  .dp-menu{
@@ -62,7 +64,7 @@
 
  footer{
 
-background-color: #aaaaaa;
+background-color: #ffffff;
 height: 50px;
 width: 100%;
 position: fixed;
@@ -73,14 +75,23 @@ text-align: center;
 
  }
  div{
-    background-color: #ffffff;
-    width: 100%;
-    height: 600px;
-    text-align: center;
+    background-color: #afafaf;
+    width: 90%;
+    height: 560px;
+  margin: auto;
+   margin-top: 120px;
+  text-align: center;
    align-content: center;
+   border-radius: 50px;
+   box-shadow: 25px 25px 15px black;
+
+   
  }
  .img{
     width: 300px;
     height: 300px;
-    border-radius: 5px;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px 10px 10px rgb(56, 56, 56);
  }
