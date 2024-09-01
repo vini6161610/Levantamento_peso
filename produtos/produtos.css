@@ -27,12 +27,7 @@
      color: var(--principal);
      text-decoration: none;
      display: inline-block;
-     padding: 30px;
-     
- 
-
-     
-     
+     padding: 30px;     
  }
  .dp-menu ul li a:hover{
      background-color: var(--hover);
@@ -67,8 +62,6 @@
     text-align: center;
     top: 0px;
     position: sticky;
-    
-  
  }
 
 .item2{
@@ -96,6 +89,17 @@ footer{
     
      }
 
+.botao{
+    background-color: #262524;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
 .quadrado{
   
     width: 200px;
@@ -103,6 +107,7 @@ footer{
 }
 
 .container2{
+    padding-top: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -183,14 +188,7 @@ footer{
     margin: 10px;
 }
 
-.item button{
-    background-color: #262524;
-    color: white;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
+
 
 @media(max-width:680px){
     .item{
