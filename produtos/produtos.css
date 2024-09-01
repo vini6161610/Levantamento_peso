@@ -111,12 +111,13 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: static;
 }
 
 .container2:hover > :not(:hover){
     opacity: .4;
     transform: scale(0.9);
-    
+    position: static;
 }
 
 .container{
@@ -133,12 +134,14 @@ footer{
     padding: 20px;
     border-radius: 10px;
     box-shadow: 6px 6px 22px 2px black;
+    
 }
 
 .items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
+
 }
 
 .item{
@@ -146,7 +149,7 @@ footer{
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    position: relative;
+   
 }
 
 .product{
@@ -155,6 +158,9 @@ footer{
     width: 100%;
     height: 220px;
     border-radius: 5px;
+    position: static;
+    
+   
 }
 
 .product.sale .sell{
