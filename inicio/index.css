@@ -3,6 +3,7 @@
     --hover:#aaaaaa;
     --principal: #ffffff;
  }
+
  *{
      justify-content: center;
      margin: 0;
@@ -72,31 +73,36 @@
  .div{
     background-color: #a5a5a5;
     width: 90%;
-    height: 560px;
-  margin: auto;
-  margin-top: 120px;
-  text-align: center;
-  justify-content: left;
-  background-image: url(../imagens/seilA.jpeg);
-  background-repeat: no-repeat;
+    height: 100%;
+    margin: auto;
+    margin-top: 120px;
+    text-align: center;
+    justify-content: left;
  
    box-shadow: 25px 25px 15px black;
+ }
 
-   
+ h2{
+    color: white;
  }
  p{
     display: inline-block;
+    color: white;
     
  }
- img{
-    width: 300px;
+ .foto-inicio {
+    width: 50%;
     height: 300px;
+    margin: auto;
     border-radius: 50px;
     margin: 20px;
     padding: 20px;
-    box-shadow: 10px 10px 10px 10px rgb(56, 56, 56);
+
+    box-shadow: 10px 10px black;
+    
     
  }
+
  footer{
 
     background-color: #ffffff;

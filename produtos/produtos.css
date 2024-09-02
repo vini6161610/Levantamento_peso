@@ -64,18 +64,7 @@
     position: sticky;
  }
 
-.item2{
-    transition: .35s;
-    cursor: pointer;
-    background-color: white;
-    width: 200px;
-    height: 200px;
-    padding-left: 35px;
-    margin: 50px;
-    float: left;
-    border-radius: 20px;
-    padding-right: 35px;
-}
+
 footer{
 
     background-color: #ffffff;
@@ -115,9 +104,22 @@ footer{
 }
 
 .container2:hover > :not(:hover){
-    opacity: .4;
+    opacity: .6;
     transform: scale(0.9);
     position: static;
+}
+
+.item2{
+    transition: .35s;
+    cursor: pointer;
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    padding-left: 35px;
+    margin: 50px;
+    float: left;
+    border-radius: 20px;
+    padding-right: 35px;
 }
 
 .container{
