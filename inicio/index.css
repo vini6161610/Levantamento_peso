@@ -5,71 +5,70 @@
  }
 
  *{
-     justify-content: center;
+    
      margin: 0;
      padding: 0;
+     font-family: sans-serif;
  }
 
- .dp-menu ul{
-     list-style-type: none;
-     padding: 0;
-     background-color: var(--fundo);
-    
-    
-     
- }
- .dp-menu ul li{
-     display: inline;
-     position: relative;
+nav.menu-horizontal{
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    top: 0;
   
-   
- }
- .dp-menu ul li a{
-     color: var(--principal);
-     text-decoration: none;
-     display: inline-block;
-     padding: 30px;
-     
     
-     
- }
- .dp-menu ul li a:hover{
-     background-color: var(--hover);
-     border-radius: 50px;
-     transition: .6s;
-    
- }
- .dp-menu ul ul{
-     display: none;
-     left: 0;
-     position: absolute;
-     
- }
- .dp-menu ul li:hover ul{
-     display: block;
-     
- }
- .dp-menu ul ul {
-    width: 150px;
-     
- }
- .dp-menu ul ul li a{ 
- display: block;
- }
+}
+.txt-link{
+    color: black;
+    margin: 0px;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.item-menu a{
+color: #ffffff;
+text-decoration: none;
+font-size: 20px;
+padding: 20px 4px;
+margin-bottom: 20px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 30px;
+}
+
+ul li.item-menu a:hover{
+    background-color: rgb(175, 0, 58);
+    transition: .6s;
+}
+ul li.item-menu a .txt-link:hover{
+    width: 300px;
+}
+.txt-link:hover{
+    color: white;
+}
+
  body{
    background-color: rgb(116, 0, 0);
+
    
  }
- .dp-menu{
-   
-    text-align: center;
-    align-content: center;
-    top: 0px;
-    position: sticky;
-    
+ img{
+    height: 100px;
+    width: 100px;
   
-    
  }
+
+ 
  .div{
     background-color: #a5a5a5;
     width: 90%;
