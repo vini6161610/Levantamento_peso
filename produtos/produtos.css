@@ -9,61 +9,51 @@
      padding: 0;
  }
 
- .dp-menu ul{
-     list-style-type: none;
-     padding: 0;
-     background-color: var(--fundo);
-     top: 0px;
-    position: fixed;
+ nav.menu-horizontal{
     width: 100%;
-    
+    background-color: #000000;
+    text-align: center;
+    padding: 5px;
+    position: sticky;
+    top: 0;
   
- }
- .dp-menu ul li{
-     display: inline;
-     position: relative;
- }
- .dp-menu ul li a{
-     color: var(--principal);
-     text-decoration: none;
-     display: inline-block;
-     padding: 30px;     
- }
- .dp-menu ul li a:hover{
-     background-color: var(--hover);
-     border-radius: 50px;
+    
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.item-menu a{
+
+    text-decoration: none;
+    font-size: 32px;
+    padding: 20px ;
+    
+    margin-left: 150px;
+    text-align: center;
+    
+    
+    }
+ul li.item-menu  a:hover{
+    color: #ffffff;
+
+}
+span{
+    color: transparent;
+}
+span:hover{
     transition: .6s;
- }
- .dp-menu ul ul{
-     display: none;
-     left: 0;
-     position: absolute;
-     
- }
- .dp-menu ul li:hover ul{
-     display: block;
-     
- }
- .dp-menu ul ul {
-    width: 150px;
-    top: 0px;
-    position: fixed;
-    width: 100%;
- }
- .dp-menu ul ul li a{ 
- display: block;
- 
- }
+    overflow: hidden;
+    color: #ffffff;
+
+}
+
  body{
    background-color: rgb(116, 0, 0);
    
  }
- .dp-menu{
-    text-align: center;
-    top: 0px;
-    position: sticky;
- }
-
+ 
 
 footer{
 
@@ -88,6 +78,11 @@ footer{
     text-decoration: none;
     text-align: center;
 }
+img{
+    height: 100px;
+    width: 100px;
+  
+ }
 
 .quadrado{
   

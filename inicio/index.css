@@ -8,7 +8,9 @@
     
      margin: 0;
      padding: 0;
+ 
      font-family: sans-serif;
+    
  }
 
 nav.menu-horizontal{
@@ -21,41 +23,39 @@ nav.menu-horizontal{
   
     
 }
-.txt-link{
-    color: black;
-    margin: 0px;
-}
+
 ul{
     height: 100%;
     list-style-type: none;
 }
 ul li.item-menu a{
-color: #ffffff;
+
 text-decoration: none;
-font-size: 20px;
-padding: 20px 4px;
-margin-bottom: 20px;
+font-size: 32px;
+padding: 20px ;
+
+margin-left: 150px;
+text-align: center;
+
+
 }
-
-ul li.item-menu a .txt-link{
-    margin-left: 40px;
+ul li.item-menu  a:hover{
+    color: #ffffff;
 
 }
-
-ul li.item-menu a .icon > i{
-    font-size: 30px;
+span{
+    color: transparent;
 }
-
-ul li.item-menu a:hover{
-    background-color: rgb(175, 0, 58);
+span:hover{
     transition: .6s;
+    overflow: hidden;
+    color: #ffffff;
+
 }
-ul li.item-menu a .txt-link:hover{
-    width: 300px;
-}
-.txt-link:hover{
-    color: white;
-}
+
+
+
+
 
  body{
    background-color: rgb(116, 0, 0);
