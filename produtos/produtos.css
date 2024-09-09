@@ -85,10 +85,16 @@ footer{
     text-decoration: none;
     text-align: center;
 }
-img{
+.imagem-menu{
     height: 100px;
     width: 100px;
   
+ }
+
+ .produto{
+    width: 150px;
+    height: 100px;
+
  }
 
 .quadrado{
