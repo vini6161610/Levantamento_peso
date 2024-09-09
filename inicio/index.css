@@ -9,36 +9,41 @@
      margin: 0;
      padding: 0;
  
-     font-family: sans-serif;
+   
     
  }
 
-nav.menu-horizontal{
+ nav.menu-horizontal{
     width: 100%;
     background-color: #000000;
-    text-align: center;
-    padding: 5px;
+    height: 145px;
+  text-align: center;
+
+    
     position: sticky;
     top: 0;
   
     
 }
-
+ul li.item-menu p{
+   
+    position: relative;
+    
+      font-size: 30px;
+    }
 ul{
     height: 100%;
     list-style-type: none;
 }
 ul li.item-menu a{
 
-text-decoration: none;
-font-size: 32px;
-padding: 20px ;
-
-margin-left: 150px;
-text-align: center;
-
-
-}
+    text-decoration: none;
+    
+    padding-left: 200px;
+    text-align: center;
+    
+    display: inline-block;
+    }
 ul li.item-menu  a:hover{
     color: #ffffff;
 
@@ -84,11 +89,7 @@ span:hover{
  h2{
     color: white;
  }
- p{
-    display: inline-block;
-    color: white;
-    
- }
+
  .foto-inicio {
     width: 50%;
     height: 300px;

@@ -12,8 +12,10 @@
  nav.menu-horizontal{
     width: 100%;
     background-color: #000000;
-    text-align: center;
-    padding: 5px;
+    height: 145px;
+  text-align: center;
+
+    
     position: sticky;
     top: 0;
   
@@ -27,17 +29,21 @@ ul{
 ul li.item-menu a{
 
     text-decoration: none;
-    font-size: 32px;
-    padding: 20px ;
     
-    margin-left: 150px;
+    padding-left: 200px;
     text-align: center;
     
-    
+    display: inline-block;
     }
 ul li.item-menu  a:hover{
     color: #ffffff;
 
+}
+ul li.item-menu p{
+   
+position: relative;
+
+  font-size: 30px;
 }
 span{
     color: transparent;
@@ -48,6 +54,7 @@ span:hover{
     color: #ffffff;
 
 }
+
 
  body{
    background-color: rgb(116, 0, 0);
