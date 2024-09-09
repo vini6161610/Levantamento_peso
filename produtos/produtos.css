@@ -12,10 +12,10 @@
  nav.menu-horizontal{
     width: 100%;
     background-color: #000000;
-    height: 145px;
+    height: 165px;
   text-align: center;
 
-    
+    padding: 5px;
     position: sticky;
     top: 0;
   
@@ -41,7 +41,7 @@ ul li.item-menu  a:hover{
 }
 ul li.item-menu p{
    
-position: relative;
+position: fixed;
 
   font-size: 30px;
 }
@@ -85,16 +85,10 @@ footer{
     text-decoration: none;
     text-align: center;
 }
-.imagem-menu{
+img{
     height: 100px;
     width: 100px;
   
- }
-
- .produto{
-    width: 150px;
-    height: 100px;
-
  }
 
 .quadrado{
