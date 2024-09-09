@@ -21,6 +21,17 @@
   
     
 }
+h2{
+  background-color: rgb(163, 0, 0);
+  width: 200px;
+  border-radius: 15px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+}
 
 ul{
     height: 100%;
@@ -71,9 +82,7 @@ footer{
     bottom: 0;
     margin: 0;
     text-align: center;
-    
-    
-     }
+    }
 
 .botao{
     background-color: #262524;
@@ -98,7 +107,7 @@ img{
 }
 
 .container2{
-    padding-top: 90px;
+    padding-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
