@@ -47,13 +47,7 @@ ul li.item-menu  a:hover{
 
 }
 span{
-    color: transparent;
-}
-span:hover{
-    transition: .6s;
-    overflow: hidden;
-    color: #ffffff;
-
+    color: #ffff;
 }
 
  body{
@@ -87,7 +81,7 @@ span:hover{
     background-color: #ffffff;
     height: 50px;
     width: 100%;
-    position: fixed;
+    
     bottom: 0;
     margin: 0;
     text-align: center;

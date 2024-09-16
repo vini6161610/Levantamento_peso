@@ -52,16 +52,7 @@ ul li.item-menu  a:hover{
     color: #ffffff;
 
 }
-span{
-    color: transparent;
-   
-}
-span:hover{
-    transition: .6s;
-    overflow: hidden;
-    color: #ffffff;
 
-}
 
 .container-medalha{
     width: 100px;
@@ -135,7 +126,7 @@ details{
     background-color: #ffffff;
     height: 50px;
     width: 100%;
-    position: fixed;
+  
     bottom: 0;
     margin: 0;
     text-align: center;
