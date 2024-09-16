@@ -5,26 +5,22 @@
  }
 
  *{
-    
      margin: 0;
-     padding: 0;
-    
+     padding: 0; 
  }
+
 
  nav.menu-horizontal{
     width: 100%;
     background-color: #000000;
-    height: 120px;
+    height: 160px;
     text-align: center;
-
-    
     position: sticky;
     top: 0;
-    
 }
 
 .imagem-menu-fundo{
-    background-color: rgb(157, 157, 157);
+    background-color: rgb(179, 179, 179);
     border-radius: 30px;
 }
 
@@ -52,7 +48,6 @@ ul li.item-menu  a:hover{
     color: #ffffff;
 
 }
-
 
 .container-medalha{
     width: 100px;
@@ -92,13 +87,10 @@ details{
 
  
  .div{
-<<<<<<< HEAD
     background-color: #535353;
     width: 100%;
-=======
     background: linear-gradient(rgb(0, 0, 0),rgb(255, 0, 0),rgb(95, 95, 95));
     width: 90%;
->>>>>>> 5daaed402607b1111a929d01258131f8bce16c6d
     height: 100%;
     margin: auto;
     margin-top: 120px;
@@ -132,7 +124,6 @@ details{
     bottom: 0;
     margin: 0;
     text-align: center;
-    
     
      }
 
