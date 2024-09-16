@@ -8,8 +8,6 @@
     
      margin: 0;
      padding: 0;
- 
-   
     
  }
 
@@ -22,7 +20,6 @@
     
     position: sticky;
     top: 0;
-  
     
 }
 ul li.item-menu p{
@@ -58,20 +55,33 @@ span:hover{
 
 }
 
+.container-medalha{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
 
+}
 
+.imagem-logo{
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+}
 
+details{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 
  body {
     background-size: 100%;
    
    background-image: url(../imagens/inicio/fundo\ animado.gif) ;
    background-repeat: no-repeat;
-   
-
-
-   
  }
+
  img{
     height: 100px;
     width: 100px;

@@ -58,17 +58,10 @@ span:hover{
 
 }
 
-
-
-
-
  body{
    background-color: rgb(116, 0, 0);
    
  }
- 
-
-
 
 .botao{
     background-color: #262524;
@@ -158,9 +151,13 @@ img{
     height: 220px;
     border-radius: 5px;
     position: static;
-    
    
 }
+
+.produto{
+    width: 200px;
+}
+
 
 .product.sale .sell{
     position: absolute;
