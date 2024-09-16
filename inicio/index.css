@@ -71,10 +71,7 @@ details{
 }
 
  body {
-    background-size: 100%;
-   
-   background-image: url(../imagens/inicio/fundo\ animado.gif) ;
-   background-repeat: no-repeat;
+    background: linear-gradient(rgb(58, 58, 58),white,rgb(58, 58, 58));
  }
 
  img{
@@ -85,7 +82,7 @@ details{
 
  
  .div{
-    background-color: #535353;
+    background: linear-gradient(rgb(0, 0, 0),rgb(255, 0, 0),rgb(95, 95, 95));
     width: 90%;
     height: 100%;
     margin: auto;
