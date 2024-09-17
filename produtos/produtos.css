@@ -9,7 +9,9 @@
      margin: 0;
      padding: 0;
  
-   
+   h2{
+    text-align: center;
+   }
     
  }
 
@@ -53,14 +55,14 @@ span{
 }
  footer{
 
-    background-color: #ffffff;
+    background-color: #4b4b4b;
     height: 50px;
     width: 100%;
     
     bottom: 0;
     margin: 0;
     text-align: center;
-    
+    position: fixed;
     
      }
 
@@ -124,7 +126,7 @@ img{
     justify-content: center;
     background-color: #747474;
     padding: 160px;
-    height: 1000px;
+    height: 100%px;
 }
 
 .white-box{
