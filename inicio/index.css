@@ -104,47 +104,8 @@ details{
   
  }
  summary{
-    text-align: right;
-    margin-right: 330px;
- }
-
- 
- .div{
-    background-color: #535353;
-    width: 95%;
-    background: linear-gradient(rgb(0, 0, 0),rgb(255, 0, 0),rgb(95, 95, 95));
-    max-height: 2000;
-    min-height: 1250px;
-    margin: auto;
-    margin-top: 120px;
   
-   
- 
-   
- }
- 
- .pp{
-    font-size: 12px;
- }
-
- h2{
-    color: white;
-text-align: center;
-margin-left: 250px;
- }
-
- .foto-inicio {
-    width: 1000px;
-    height: 500px;
-    margin: auto;
-    border-radius: 50px;
-    margin: 20px;
-    padding: 20px;
-    
- }
- h1{color: #ffff;}
- span{
-    color: #ffffff;
+    margin-right: 350px;
  }
  .fund{
     width: 430px;
@@ -166,6 +127,76 @@ margin-left: 250px;
  
 
  }
+ 
+.fund3{
+    width: 430px;
+    background-color: #ffffff;
+   padding: 20px;
+   margin: 40px;
+  
+   height: 430px;
+   float: left;
+}
+.fund4{
+    width: 430px;
+    background-color: #ffffff;
+   padding: 20px;
+   margin: 40px;
+  
+   height: 430px;
+   float: right;
+}
+.medalha{
+position: absolute;
+right: 100%;
+ 
+}
+ 
+ .div{
+    background-color: #535353;
+    width: 95%;
+    background: linear-gradient(rgb(0, 0, 0),rgb(255, 0, 0),rgb(95, 95, 95));
+    max-height: 2000;
+    min-height: 1250px;
+    margin: auto;
+    margin-top: 120px;
+  
+   
+ 
+   
+ }
+ .podio{
+   text-align: left;
+   justify-content: left;
+ }
+
+ 
+ .pp{
+    font-size: 12px;
+    margin-top: 10px;
+ }
+
+ h2{
+    color: rgb(0, 0, 0);
+text-align: center;
+margin-right: 500px;
+
+ }
+
+ .foto-inicio {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 20px;
+    
+ }
+ h1{color: #ffff;}
+ span{
+    color: #ffffff;
+ }
+ 
  .h2{
     text-align: left;
   margin-left: 800px;
