@@ -62,11 +62,17 @@ span :hover{
     transition: 0.5;
 }
 
-.container-medalha{
-    width: 100px;
-    height: 200px;
-    background-color: rgb(255, 255, 255);
-
+figure{
+    font-size:32px;
+    justify-content: left;
+    text-align:right ;
+    margin-right: 370px;
+}
+.pppp{
+   text-align: center;
+   margin-right: 1000px;
+ 
+   
 }
 
 .imagem-logo{
@@ -76,18 +82,18 @@ span :hover{
 }
 
 details{
-    text-align: center;
+    text-align: right;
     display:flex;
     justify-content: center;
     align-items: center;
+    margin-left: 550px;
 }
 
-.podio-24{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
+.h22{
+    margin-right: 250px;
+    text-align: right;
+}
  body {
     background: linear-gradient(rgb(58, 58, 58),white,rgb(58, 58, 58));
  }
@@ -97,14 +103,18 @@ details{
     width: 100px;
   
  }
+ summary{
+    text-align: right;
+    margin-right: 330px;
+ }
 
  
  .div{
     background-color: #535353;
     width: 95%;
     background: linear-gradient(rgb(0, 0, 0),rgb(255, 0, 0),rgb(95, 95, 95));
-    
-    height: 800px;
+    max-height: 2000;
+    min-height: 1250px;
     margin: auto;
     margin-top: 120px;
   
@@ -112,14 +122,15 @@ details{
  
    
  }
+ 
  .pp{
     font-size: 12px;
  }
 
  h2{
     color: white;
-text-align: left;
-margin-left: 50px;
+text-align: center;
+margin-left: 250px;
  }
 
  .foto-inicio {
@@ -131,16 +142,40 @@ margin-left: 50px;
     padding: 20px;
     
  }
+ h1{color: #ffff;}
  span{
     color: #ffffff;
  }
  .fund{
-    margin-left: 50px;
-    margin-right: 1100px;
+    width: 430px;
     background-color: #ffffff;
    padding: 20px;
+   margin: 40px;
+  
+   height: 430px;
+   float: left;
    
  }
+ .fund2{
+  width: 430px;
+    background-color: #ffffff;
+   padding: 20px;
+   margin: 40px;
+   height: 430px;
+   float: right;
+ 
+
+ }
+ .h2{
+    text-align: left;
+  margin-left: 800px;
+   
+    
+ }
+ .med{
+    color: #000000;
+ }
+
 
 
  footer{
@@ -148,9 +183,8 @@ margin-left: 50px;
     background-color: #ffffff;
     height: 50px;
     width: 100%;
-  
-    bottom: 0;
-    margin: 0;
+ 
+    
     text-align: center;
     
      }
