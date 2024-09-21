@@ -9,21 +9,27 @@
      padding: 0; 
  }
 
-
+/* MENU */
  nav.menu-horizontal{
     width: 100%;
     background-color: #000000;
     height: 160px;
     text-align: center;
     position: sticky;
-    top: 0;
+    padding-top: 15px;
 }
+
 
 .imagem-menu-fundo{
     background-color: rgb(179, 179, 179);
     border-radius: 30px;
 }
 
+.item-menu{
+    display: flex;
+    justify-content: right;
+    padding-right: 60px;
+}
 
 ul li.item-menu p{
    
@@ -41,6 +47,7 @@ ul li.item-menu a{
     
     padding-left: 200px;
     text-align: center;
+    color: #757575;
     
     display: inline-block;
     }
@@ -48,6 +55,8 @@ ul li.item-menu  a:hover{
     color: #ffffff;
 
 }
+
+/* MENU */
 
 .container-medalha{
     width: 100px;
