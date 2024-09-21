@@ -140,18 +140,13 @@ details{
 .fund4{
     width: 430px;
     background-color: #ffffff;
+   min-height: 430px;
    padding: 20px;
    margin: 40px;
-  
-   height: 430px;
+   max-height: 1000px;
    float: right;
 }
-.medalha{
-position: absolute;
-right: 100%;
- 
-}
- 
+
  .div{
     background-color: #535353;
     width: 95%;
@@ -165,9 +160,12 @@ right: 100%;
  
    
  }
+ .fund4 .div{
+    min-height: 340px;
+    max-height: 2000;
+ }
  .podio{
-   text-align: left;
-   justify-content: left;
+  margin-left: 160px;
  }
 
  
@@ -178,8 +176,12 @@ right: 100%;
 
  h2{
     color: rgb(0, 0, 0);
-text-align: center;
-margin-right: 500px;
+
+
+
+
+ }
+ .Medalhas{
 
  }
 
