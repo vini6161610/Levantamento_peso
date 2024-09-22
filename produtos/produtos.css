@@ -19,7 +19,7 @@
     justify-content: center;
    }
 
- /* MENU */
+
 
  nav.menu-horizontal{
     width: 100%;
@@ -43,13 +43,13 @@ ul li.item-menu p{
    
     position: relative;
     
-      font-size: 30px;
+      font-size: 26px;
     }
 
     .item-menu{
         display: flex;
-        justify-content: right;
-        padding-right: 60px;
+      justify-content: center;
+        padding: auto;
     }
 
 ul{
@@ -198,6 +198,10 @@ img{
     font-size: 16px;
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
+}
+.imagem-menu-fundo{
+    background-color: rgb(179, 179, 179);
+    border-radius: 30px;
 }
 
 

@@ -7,6 +7,7 @@
      justify-content: center;
      margin: 0;
      padding: 0;
+     
  }
 
  nav.menu-horizontal{
@@ -35,7 +36,7 @@ ul li.item-menu p{
 
   .item-menu{
       display: flex;
-      justify-content: right;
+     
       padding-right: 60px;
   }
 
@@ -62,7 +63,7 @@ ul li.item-menu  a:hover{
 
 
  body{
-   background-color: rgb(116, 0, 0);
+   background-color: rgb(126, 56, 56);
    
  }
  
@@ -106,11 +107,16 @@ ul li.item-menu  a:hover{
      }
      .slide{
       height: 700px;
+      
       width: 1200px;
       justify-content: center;
-    
+   margin: auto;
      }
-     .carousel-slide{
-      position: sticky;
-     }
+    h1{
+      text-align: center;
+    }
+    .imagem-menu-fundo{
+      background-color: rgb(179, 179, 179);
+      border-radius: 30px;
+  }
     
