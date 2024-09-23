@@ -66,7 +66,7 @@ ul li.item-menu a{
     }
 
 ul li.item-menu  a:hover{
-    color: #ffffff;
+    color: #ff0000;
 
 }
 
@@ -84,7 +84,7 @@ span{
 }
 
 span :hover{
-    color: rgb(153, 105, 51);
+    color: rgb(255, 0, 0);
     transition: 0.5;
 }
 
@@ -141,6 +141,7 @@ details{
   
    height: 430px;
    float: left;
+   border-radius: 30px;
    
  }
  .fund2{
@@ -150,6 +151,7 @@ details{
    margin: 40px;
    height: 430px;
    float: right;
+   border-radius: 30px;
  
 
  }
@@ -162,6 +164,7 @@ details{
   
    height: 800px;
    float: left;
+   border-radius: 30px;
 }
 .fund4{
     width: 430px;
@@ -169,8 +172,9 @@ details{
    min-height: 430px;
    padding: 20px;
    margin: 40px;
-   max-height: 1000px;
+   max-height: 2000px;
    float: right;
+   border-radius: 30px;
 }
 
  .div{
@@ -206,6 +210,13 @@ details{
     display: flex;
     margin: auto;
  
+ }
+ .pod{
+    font-size: 12px;
+    margin-top: 10px;
+    display: flex;
+    text-align: right;
+    margin-left: 35px;
  }
 .catego{
     height: 150px;
@@ -272,6 +283,7 @@ details{
         text-align: center;
         
     }
+  
 
      @media screen and (max-width: 1160px) {
 

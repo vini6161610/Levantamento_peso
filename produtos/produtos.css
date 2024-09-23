@@ -63,7 +63,7 @@ ul li.item-menu a{
     
     padding-left: 100px;
     padding-right: 50px;
-    color: #757575;
+    color: #ffffff;
     padding-top: 20px;
     
     display: flex;
@@ -79,7 +79,7 @@ ul li.item-menu a{
     }
 
 ul li.item-menu  a:hover{
-    color: #ffffff;
+    color: #ff0000;
 
 }
 .imagem-menu-logo{
