@@ -13,10 +13,14 @@
  nav.menu-horizontal{
   width: 100%;
   background-color: #000000;
-  height: 160px;
+  height: 225px;
   text-align: center;
-  position: sticky;
+ 
+  top: 0;
   padding-top: 15px;
+
+}
+.icon{
 
 }
 
@@ -31,13 +35,14 @@ ul li.item-menu p{
  
   position: relative;
   
-    font-size: 30px;
+    font-size: 26px;
+    
   }
 
   .item-menu{
       display: flex;
-     
-      padding-right: 60px;
+    justify-content: right;
+      padding: auto;
   }
 
 ul{
@@ -47,19 +52,27 @@ ul{
 ul li.item-menu a{
 
   text-decoration: none;
-  
-  padding-left: 200px;
-  text-align: center;
+padding: 100px;
   color: #757575;
-  
-  display: inline-block;
+  padding-top: 25px;
+  margin-left: 20px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: right;
+  }
+
+  .imagem-menu-logo{
+      padding-right: 90px;
+      height: 190px;
+      width: 250Px;
+      padding-left: 90px;
+      
   }
 
 ul li.item-menu  a:hover{
   color: #ffffff;
 
 }
-
 
 
  body{
@@ -90,19 +103,24 @@ ul li.item-menu  a:hover{
  }
  footer{
 
-    background-color: #ffffff;
-    height: 50px;
-    width: 100%;
-
-    bottom: 0;
-    margin: 0;
-    text-align: center;
-    
-    
-     }
+  background-color: #4b4b4b;
+  height: 50px;
+  width: 100%;
+  
+  bottom: 0;
+  margin: 0;
+  text-align: center;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+   }
      img{
-        height: 100px;
-        width: 100px;
+        height: 110px;
+        width: 110px;
       
      }
      .slide{
@@ -115,8 +133,14 @@ ul li.item-menu  a:hover{
     h1{
       text-align: center;
     }
-    .imagem-menu-fundo{
-      background-color: rgb(179, 179, 179);
-      border-radius: 30px;
-  }
+   
+  
+  .imagem-menu-logo{
+  
+    height: 205px;
+    width: 455Px;
+    margin-right: 10px;
+    margin-top: -2px;
+    
+}
     
