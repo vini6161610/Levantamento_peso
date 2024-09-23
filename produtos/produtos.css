@@ -70,24 +70,16 @@ ul li.item-menu a{
     justify-content: right;
     }
 
-    .imagem-menu-logo{
-        padding-right: 90px;
-        height: 190px;
-        width: 250Px;
-        padding-left: 90px;
-        
-    }
-
 ul li.item-menu  a:hover{
     color: #ff0000;
 
 }
+
 .imagem-menu-logo{
-    padding-right: 10px;
+    padding-right: 500px;
     height: 190px;
     width: 250Px;
-    padding-left: 90px;
-    
+    padding-left: 90px;   
 }
 
 
